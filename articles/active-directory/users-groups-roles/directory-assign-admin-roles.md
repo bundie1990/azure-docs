@@ -162,6 +162,10 @@ The following administrator roles are available:
   *	Non-administrators like executives, legal counsel, and human resources employees who may have access to sensitive or private information.
 
   > [!NOTE]
+  > Delegating administrative permissions over subsets of users and applying policies to a subset of users is possible with [Administrative Units](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-administrative-units). This role was previously called "Password Administrator" in [Azure portal](https://portal.azure.com/). We are changing its name to "Helpdesk Administrator" to match its name in Azure AD PowerShell, Azure AD Graph API and Microsoft Graph API. For a short time, we will change the name to "Helpdesk (Password) Administrator" in Azure portal before the change to "Helpdesk Administrator".
+  >
+
+  > [!NOTE]
   > This role was previously called "Password Administrator" in [Azure portal](https://portal.azure.com/). We are changing its name to "Helpdesk Administrator" to match its name in Azure AD PowerShell, Azure AD Graph API and Microsoft Graph API. For a short time, we will change the name to "Helpdesk (Password) Administrator" in Azure portal before the change to "Helpdesk Administrator".
   >
   
